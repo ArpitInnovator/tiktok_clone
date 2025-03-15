@@ -117,7 +117,7 @@ class AuthController extends GetxController {
         Get.snackbar('Error Logging In account', 'Please enter all the fields');
       }
     } catch (e) {
-      Get.snackbar('Error Creaing account', e.toString());
+      Get.snackbar('Error Creating account', e.toString());
     }
   }
 }
